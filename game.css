@@ -3,6 +3,7 @@ body {
 
 }
 
+
 .choice-container {
     display: flex;
     margin-bottom: 0.8rem;
@@ -35,6 +36,36 @@ body {
 
 .incorrect {
     background-color: rgb(188, 62, 62);
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(12, 235, 12);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background-color: rgb(12, 235, 12);
+    width: 0%;
 }
 
 @media  screen and (max-width: 768px) {
